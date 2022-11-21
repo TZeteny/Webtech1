@@ -1,0 +1,70 @@
+body {
+    background-color:bisque;
+    margin: 0px;
+}
+
+.header{
+    background-color:rgb(73, 43, 6);
+    display: flex;
+    justify-content:space-between;
+}
+
+#logo {
+    height: 130px;
+}
+
+.navbar {
+    background-color: rgb(102, 72, 35);
+    height: 2.5em; 
+}
+
+.nav-items {
+    display: flex;
+    height: 2.5em;
+    width: 600px;
+    margin: auto;
+}
+
+.nav-items > a:hover{
+    background-color: rgba(128, 128, 128, 0.308);
+    border-radius: 30px;
+}
+
+.nav-items > a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 180px;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.types-table {
+    display: flex;
+    justify-content:space-around;
+}
+
+.types, .types tr, .types td  {
+    border: 2px solid rgb(73, 43, 6);
+}
+
+.types ul, .types li {
+    display: table;
+}
+
+.types img {
+    max-height: 200px;
+    max-width: 400px;
+}
+
+.form-element {
+    border: 2px solid rgb(73, 43, 6);
+}
+
+.form-button {
+    background-color:bisque;
+}
